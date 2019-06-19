@@ -10,11 +10,10 @@ namespace VolumeOfHemisphere
     {
         static void Main(string[] args)
         {
-           
             Console.Write("Enter the radius of a hemisphere: " );
-            //this is the code that gets the information that is needed for r
+            
             double r = Double.Parse(Console.ReadLine());
-            //r is the radius
+            
             double r3 = r * r * r;
             //r3 is the radius squared
             double Volume = (2 / 3.0) * (Math.PI) * r3;
@@ -25,7 +24,6 @@ namespace VolumeOfHemisphere
             Console.WriteLine($"The volume of this hemisphere is: {Volume}");
 
             Console.ReadLine();
-
         }
     }
 }
